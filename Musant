@@ -1,0 +1,6 @@
+musant/
+├── index.html
+├── README.md
+├── .gitignore
+└── assets/
+    └── (optional for future images/files)
