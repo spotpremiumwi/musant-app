@@ -1,0 +1,41 @@
+# Musant — El Ritmo de tus Emociones
+
+A mobile-first music discovery experience that connects emotion, color, and sound.
+
+Musant is a prototype web app where users explore music by mood, interact with a chromatic wheel to blend genres, use a "Cameleon" mode to match visual color palettes to music, and enjoy a sleek dark neon interface.
+
+## 🎨 Features
+
+- **Mood-based Music Discovery** — Filter tracks by emotional state (Introspección, Adrenalina, Calma, Fiesta)
+- **Interactive Chroma Wheel** — Select color sectors to generate genre-mood mixes
+- **Cameleon Mode** — Simulated environment color extraction and palette-based playlist generation
+- **Floating Mini Player** — Quick access controls and track info
+- **Fullscreen Player Modal** — Rich playback experience with timeline and controls
+- **Dynamic Theme** — App colors sync with the currently playing track
+- **Social Color-Pulse** — See what friends are listening to in real-time
+- **Responsive Mobile UI** — Optimized for mobile devices with a sleek dark aesthetic
+
+## 🎵 Screens
+
+1. **Home** — Mood chips, featured recommendations, recent tracks, visual playlists
+2. **Chroma Wheel** — Interactive color sectors mapped to genres and emotions
+3. **Cameleon Mode** — Simulated camera to capture and match environmental colors
+4. **Profile** — User stats, social features, artist rewards
+
+## 🛠️ Tech Stack
+
+- **HTML5** — Semantic structure
+- **Tailwind CSS** — Utility-first styling via CDN
+- **Vanilla JavaScript** — Pure JS (no frameworks)
+- **Web Audio API** — Synth-inspired tone generation for color feedback
+
+## 🚀 How to Run Locally
+
+### Option 1: Open directly in browser
+Simply open `index.html` in your web browser.
+
+### Option 2: Use a local server (recommended)
+
+**Python 3:**
+```bash
+python -m http.server 8000
